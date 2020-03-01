@@ -10,7 +10,7 @@ import (
 func TestCasesValidPrefixToInfix(t *testing.T) {
 	assert := assert.New(t)
 
-	expressions := []string{" 4 33",
+	expressions := []string{"+ 4 33",
 		"+ / - - * 13 8 / 9 1 ^ 6 3 3 ^ - 3 * 7 8 3",
 		"* + 11 2 7",
 		"100"}
